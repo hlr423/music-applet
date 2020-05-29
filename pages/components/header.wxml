@@ -1,0 +1,5 @@
+<view class="tab">
+<view class="tab-item">音乐推荐</view>
+<view class="tab-item">播放器</view>
+<view class="tab-item">播放列表</view>
+</view>

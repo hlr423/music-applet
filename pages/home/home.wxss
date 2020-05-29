@@ -1,0 +1,33 @@
+page{
+  display: flex;
+  flex-direction: column;
+  background-color: #17171a;
+  color: #ccc;
+  height: 100%;
+}
+.tab{
+  display: flex;
+}
+.tab-item{
+  flex: 1;
+  font-size: 10pt;
+  text-align: center;
+  line-height: 72rpx;
+  border-bottom: 6rpx solid #eee;
+}
+.content{
+  flex: 1;
+}
+.content >swiper{
+  height:100%;
+}
+.player{
+  background-color: #222;
+  border-top: 1px solid #252525;
+  height: 112rpx;
+}
+
+.active{
+  color:#c25b5b!important;
+  border-bottom-color: #c25b5b!important;
+}

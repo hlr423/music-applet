@@ -1,0 +1,21 @@
+Page({
+  data:{
+    current:0,
+    tab:0
+  },
+  changeBar(e){
+    console.log(e.detail.currentItemId)
+    this.setData({
+      current:e.detail.currentItemId,
+      tab:e.detail.currentItemId
+    })
+  },
+  changeItem(e){
+    let indexVal = e.target.dataset.item
+    this.setData({current:indexVal})
+  },
+  changeTab(e){
+    console.log(e)
+    this.setData({tab:e.detail.current})
+  }
+})

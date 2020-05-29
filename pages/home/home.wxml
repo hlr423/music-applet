@@ -1,0 +1,21 @@
+<view class="tab">
+	<view class="tab-item {{tab == 0?'active':''}}" bindtap="changeItem" data-item="0">音乐推荐</view>
+	<view class="tab-item {{tab == 1?'active':''}}" bindtap="changeItem" data-item="1">播放器</view>
+	<view class="tab-item {{tab == 2?'active':''}}" bindtap="changeItem" data-item="2">播放列表</view>
+</view>
+<view class="content">
+	<swiper current-item-id="{{current}}" indicator-dots="{{current}}"  indicator-color="gray" indicator-active-color="white" interval="5000" duration="800" circular="true" bindchange="changeBar">
+		<swiper-item item-id="0" style="background-color:#ccc">
+    <include src="../components/listPage/info.wxml"/>
+    </swiper-item>
+		<swiper-item item-id="1" style="background-color:#eee">
+        <include src="../components/listPage/play.wxml"/>
+    </swiper-item>
+		<swiper-item item-id="2" style="background-color:#ddd">
+        <include src="../components/listPage/playlist.wxml"/>
+    </swiper-item>
+	</swiper>
+</view>
+<view class="player">
+
+</view>
