@@ -1,7 +1,8 @@
 {
   "pages":[
-    "pages/components/test",
     "pages/home/home",
+    "pages/components/listPage/info",
+    "pages/components/test",
     "pages/index/index",
     "pages/logs/logs"
   ],

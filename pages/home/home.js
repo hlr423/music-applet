@@ -4,7 +4,6 @@ Page({
     tab:0
   },
   changeBar(e){
-    console.log(e.detail.currentItemId)
     this.setData({
       current:e.detail.currentItemId,
       tab:e.detail.currentItemId

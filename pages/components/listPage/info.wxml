@@ -1,1 +1,76 @@
-<view style="background-color:#ccc;color:#000;height:100%">info</view>
+<scroll-view class="content-info" scroll-y>
+	<view>
+		<swiper class="content-info-slide" indicator-color="rgba(255.255.255,.5)" indicator-active-color="#fff" indicator-dots circular autoplay="true">
+			<swiper-item>
+				<image src="/pages/images/zly.jpeg" mode="aspectFill"></image>
+			</swiper-item>
+			<swiper-item>
+				<image src="/pages/images/zly.jpeg" mode="aspectFill"></image>
+			</swiper-item>
+			<swiper-item>
+				<image src="/pages/images/zly.jpeg" mode="aspectFill"></image>
+			</swiper-item>
+		</swiper>
+	</view>
+	<!-- 功能按钮 -->
+	<view class="content-info-portal">
+		<view>
+			<view class="iconfont iconren icon-tb" style="font-size:2rem"></view>
+			<text>私人FM</text>
+		</view>
+		<view>
+			<view class="iconfont iconnumber icon-tb" style="font-size:2rem"></view>
+			<text>每日歌曲推荐</text>
+		</view>
+		<view>
+			<view class="iconfont iconbangdan icon-tb" style="font-size:2rem"></view>
+			<text>云音乐新歌榜</text>
+		</view>
+	</view>
+	<!-- 热门音乐 -->
+	<view>
+		<view class="content-info-list">
+			<view class="list-title">热门音乐</view>
+			<view class="list-inner">
+				<view class="list-item">
+					<image src="/pages/images/zly.jpeg"></image>
+					<view>活着</view>
+				</view>
+				<view class="list-item">
+					<image src="/pages/images/zly.jpeg"></image>
+					<view>活着</view>
+				</view>
+				<view class="list-item">
+					<image src="/pages/images/zly.jpeg"></image>
+					<view>活着</view>
+				</view>
+				<view class="list-item">
+					<image src="/pages/images/zly.jpeg"></image>
+					<view>活着</view>
+				</view>
+				<view class="list-item">
+					<image src="/pages/images/zly.jpeg"></image>
+					<view>活着</view>
+				</view>
+				<view class="list-item">
+					<image src="/pages/images/zly.jpeg"></image>
+					<view>活着</view>
+				</view>
+				<view class="list-item">
+					<image src="/pages/images/zly.jpeg"></image>
+					<view>活着</view>
+				</view>
+				<view class="list-item">
+					<image src="/pages/images/zly.jpeg"></image>
+					<view>活着</view>
+				</view>
+				<view class="list-item">
+					<image src="/pages/images/zly.jpeg"></image>
+					<view>活着</view>
+				</view>
+			</view>
+		</view>
+	</view>
+
+
+</scroll-view>

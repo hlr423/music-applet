@@ -1,0 +1,30 @@
+{
+  "id": "1860561",
+  "name": "music-applet",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "音乐播放器小程序",
+  "glyphs": [
+    {
+      "icon_id": "1503687",
+      "name": "number8",
+      "font_class": "number",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "5482975",
+      "name": "人",
+      "font_class": "ren",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "7962966",
+      "name": "榜单",
+      "font_class": "bangdan",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    }
+  ]
+}
