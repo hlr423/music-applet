@@ -1,15 +1,16 @@
-<scroll-view scroll-x scroll-y style="height200px" bindscroll="scroll">
+<!-- <scroll-view scroll-x scroll-y style="height200px" bindscroll="scroll">
 	<view style="width:200%;height:400px;background-color:#ccc"></view>
 </scroll-view>
 <view>
-<text>缩放模式测试</text>
+	<text>缩放模式测试</text>
 </view>
 <image style="width:100%;background-color:#eee;" mode="scaleToFill" src="/pages/images/zly.jpeg"></image>
 <view>
-<text>裁剪模式测试</text>
+	<text>裁剪模式测试</text>
 </view>
 <image style="width:200px;height:200px;background-color:#eee;" mode="aspectFill" src="/pages/images/zly.jpeg"></image>
 <view>
-<text>缩放模式测试</text>
+	<text>缩放模式测试</text>
 </view>
-<image style="width:200px;height:200px;background-color:#eee;" mode="top" src="/pages/images/zly.jpeg"></image>
+<image style="width:200px;height:200px;background-color:#eee;" mode="top" src="/pages/images/zly.jpeg"></image> -->
+<slider bindchanging="sliderChanging" show-value="true"/>

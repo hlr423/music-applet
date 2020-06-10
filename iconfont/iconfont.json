@@ -6,6 +6,34 @@
   "description": "音乐播放器小程序",
   "glyphs": [
     {
+      "icon_id": "166592",
+      "name": "播放",
+      "font_class": "bofang2",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "5876278",
+      "name": "下一曲",
+      "font_class": "xiayiqu",
+      "unicode": "e7ff",
+      "unicode_decimal": 59391
+    },
+    {
+      "icon_id": "14102128",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "7775068",
+      "name": "列表",
+      "font_class": "liebiao",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
       "icon_id": "1503687",
       "name": "number8",
       "font_class": "number",
