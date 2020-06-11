@@ -180,3 +180,34 @@ text-align: center;
 .content-play-progress>view{
   flex: 1;
 }
+
+/* 播放列表样式 */
+
+.playlist-item{
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #333;
+  height: 112rpx;
+}
+.playlist-cover{
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 15rpx;
+  border-radius: 8rpx;
+  border: 1rpx solid #333;
+}
+.playlist-info{
+  flex: 1;
+  font-size: 10pt;
+  line-height: 38rpx;
+  margin-left: 20rpx;
+  padding-bottom: 8rpx;
+}
+.playlist-info-singer{
+  color: #888;
+}
+.playlist-controls{
+  font-size: 10pt;
+  margin-right: 20rpx;
+  color: #c25b5b;
+}

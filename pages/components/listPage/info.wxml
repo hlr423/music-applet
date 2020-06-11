@@ -1,14 +1,8 @@
 <scroll-view class="content-info" scroll-y>
 	<view>
 		<swiper class="content-info-slide" indicator-color="rgba(255.255.255,.5)" indicator-active-color="#fff" indicator-dots circular autoplay="true">
-			<swiper-item>
-				<image src="/pages/images/zly.jpeg" mode="aspectFill"></image>
-			</swiper-item>
-			<swiper-item>
-				<image src="/pages/images/zly.jpeg" mode="aspectFill"></image>
-			</swiper-item>
-			<swiper-item>
-				<image src="/pages/images/zly.jpeg" mode="aspectFill"></image>
+			<swiper-item wx:for="{{playList}}" wx:key="id" data-index="index">
+				<image src="{{item.coverImgUrl}}" mode="aspectFill"></image>
 			</swiper-item>
 		</swiper>
 	</view>
@@ -32,41 +26,9 @@
 		<view class="content-info-list">
 			<view class="list-title">热门音乐</view>
 			<view class="list-inner">
-				<view class="list-item">
-					<image src="/pages/images/zly.jpeg"></image>
-					<view>活着</view>
-				</view>
-				<view class="list-item">
-					<image src="/pages/images/zly.jpeg"></image>
-					<view>活着</view>
-				</view>
-				<view class="list-item">
-					<image src="/pages/images/zly.jpeg"></image>
-					<view>活着</view>
-				</view>
-				<view class="list-item">
-					<image src="/pages/images/zly.jpeg"></image>
-					<view>活着</view>
-				</view>
-				<view class="list-item">
-					<image src="/pages/images/zly.jpeg"></image>
-					<view>活着</view>
-				</view>
-				<view class="list-item">
-					<image src="/pages/images/zly.jpeg"></image>
-					<view>活着</view>
-				</view>
-				<view class="list-item">
-					<image src="/pages/images/zly.jpeg"></image>
-					<view>活着</view>
-				</view>
-				<view class="list-item">
-					<image src="/pages/images/zly.jpeg"></image>
-					<view>活着</view>
-				</view>
-				<view class="list-item">
-					<image src="/pages/images/zly.jpeg"></image>
-					<view>活着</view>
+				<view class="list-item" wx:for="{{playList}}" wx:key="id" data-index="index">
+					<image src="{{item.coverImgUrl}}"></image>
+					<view>{{item.title}}</view>
 				</view>
 			</view>
 		</view>
