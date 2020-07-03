@@ -4,7 +4,7 @@
 	<view class="tab-item {{tab == 2?'active':''}}" bindtap="changeItem" data-item="2">播放列表</view>
 </view>
 <view class="content">
-	<swiper current-item-id="{{current}}" indicator-dots="{{current}}" indicator-color="gray" indicator-active-color="white" interval="5000" duration="800" circular="true" bindchange="changeBar">
+	<swiper current-item-id="{{current}}"   duration="800"  bindchange="changeBar">
 		<swiper-item item-id="0">
 			<include src="../components/listPage/info.wxml" />
 		</swiper-item>
